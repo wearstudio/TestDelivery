@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://wearstudio.github.io/TestDelivery/Hybrid Meeting Prototype_arm.appinstaller"
+	Version="1.0.1.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainPackage
+		Name="AmazingMeetHeadset"
+		Version="1.0.1.0"
+		Publisher="CN=wear-am"
+		Uri="https://wearstudio.github.io/TestDelivery/Hybrid Meeting Prototype_1.0.1.0_ARM_Debug_Test/Hybrid Meeting Prototype_1.0.1.0_ARM_Debug.msix"
+		ProcessorArchitecture="arm" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.VCLibs.140.00.Debug"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="arm"
+			Uri="https://wearstudio.github.io/TestDelivery/Hybrid Meeting Prototype_1.0.1.0_ARM_Debug_Test/Dependencies/ARM/Microsoft.VCLibs.ARM.Debug.14.00.appx"
+			Version="14.0.30035.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
